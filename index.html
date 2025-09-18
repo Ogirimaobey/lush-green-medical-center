@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lush Green Medical Centre - Your Path to Wellness</title>
+    <style>
+        /* CSS for the "Digital Healing Garden" Concept */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap');
+
+        :root {
+            --forest-green: #0A4D2E;
+            --mint-green: #8DDDB9;
+            --off-white: #F9F9F7;
+            --dark-text: #1C1C1C;
+            --gold-accent: #D4AF37;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: var(--off-white);
+            color: var(--dark-text);
+        }
+
+        /* --- Header & Navigation --- */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 5%;
+            background-color: transparent;
+            position: absolute;
+            width: 90%;
+            z-index: 100;
+        }
+
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--mint-green);
+        }
+
+        .cta-button {
+            background-color: var(--gold-accent);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #C39F2D;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background: linear-gradient(rgba(10, 77, 46, 0.7), rgba(10, 77, 46, 0.5)), url('https://i.imgur.com/gKkE4Xg.jpg') no-repeat center center/cover;
+            /* Placeholder image, to be replaced with a video or high-res photo */
+        }
+        
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 4.5rem;
+            font-weight: 700;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1rem 0 2rem;
+            font-weight: 400;
+        }
+        
+        .hero-buttons .btn {
+             text-decoration: none;
+             color: white;
+             padding: 1rem 2rem;
+             border-radius: 50px;
+             font-weight: 600;
+             margin: 0 0.5rem;
+             transition: all 0.3s ease;
+        }
+        .btn.primary {
+            background-color: var(--mint-green);
+            color: var(--forest-green);
+        }
+        .btn.primary:hover {
+            background-color: white;
+        }
+        .btn.secondary {
+            border: 2px solid var(--mint-green);
+        }
+        .btn.secondary:hover {
+            background-color: var(--mint-green);
+            color: var(--forest-green);
+        }
+
+        /* --- Footer --- */
+        .footer {
+            background-color: var(--forest-green);
+            color: var(--off-white);
+            padding: 4rem 5% 2rem;
+            text-align: center;
+        }
+        
+        .footer-contact p {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        
+        .footer-contact a {
+            color: var(--mint-green);
+            text-decoration: none;
+        }
+        
+        .copyright {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Lush Green Medical Centre</a>
+        <nav class="nav-links">
+            <a href="#services">Services</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="tel:07037819734" class="cta-button">Call Emergency</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Path to Wellness Begins Here.</h1>
+            <p>Compassionate, modern healthcare designed around you.</p>
+            <div class="hero-buttons">
+                <a href="#appointment" class="btn primary">Book an Appointment</a>
+                <a href="#services" class="btn secondary">Explore Our Services</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer" id="contact">
+        <h2>Lush Green Medical Centre</h2>
+        <div class="footer-contact">
+            <p>Port Harcourt, Rivers State, Nigeria</p>
+            <p><strong>Phone:</strong> <a href="tel:07037819734">07037819734</a></p>
+            <p><strong>Email:</strong> <a href="mailto:lushgreenmedicalcentre@gmail.com">lushgreenmedicalcentre@gmail.com</a></p>
+        </div>
+        <p class="copyright">
+            &copy; 2024 Lush Green Medical Centre. All Rights Reserved. <br>
+            Website Concept by FundBridge Consultation Limited.
+        </p>
+    </footer>
+
+</body>
+</html>
